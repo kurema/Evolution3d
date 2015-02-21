@@ -54,13 +54,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="test.jpg">
-      <Name>test</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="1.png">
       <Name>1</Name>
       <Importer>TextureImporter</Importer>
