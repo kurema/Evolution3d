@@ -30,6 +30,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -----------------------------------------------------------------------------
 Game1.cs・UserOutput.cs・Camera.csのソースコードの一部及びCube.x・Sphere.xの各モデルは米山 哲平様の著作物です。
 ソースコード・CubeとSphereモデルに関しては「自由に使って構わない」との許可を頂いています。
+従ってこれらのファイルは上記のライセンスに含みます。
 以下に参考にしたページを記します。
 http://octonion.jp/splendidaxe/
 
