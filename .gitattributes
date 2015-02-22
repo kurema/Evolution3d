@@ -63,4 +63,4 @@
 #*.RTF   diff=astextplain
 
 # x file is DirectX. Not logos
-*.x   diff=astextplain
+*.x   linguist-vendored=false
