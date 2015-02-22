@@ -1,4 +1,4 @@
-別記の対象を除き、本プロジェクトには以下のライセンスが適用されます。
+本プロジェクトには以下のライセンスが適用されます。
 Copyright (c) 2013, kurema, 米山 哲平
 All rights reserved.
 
@@ -35,7 +35,7 @@ Game1.cs・UserOutput.cs・Camera.csのソースコードの一部及びCube.x�
 http://octonion.jp/splendidaxe/
 
 -----------------------------------------------------------------------------
-本プロジェクトにはPhysX.Netが含まれています。以下のライセンスが適用されます。
+本プロジェクトにはPhysX.Netが含まれています。
 The MIT License (MIT)
 
 Copyright (c) 2014 stilldesign
