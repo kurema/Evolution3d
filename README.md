@@ -11,6 +11,10 @@
 
 いわゆる、遺伝的アルゴリズムではありません。
 
+遺伝子により脳と体を定義し、物理演算上で単純な生態系を実現するという素直な方法で、進化の再現を実験しています。  
+結果としては現状のコンピューターの性能限界から期待したほどの進化は実現しませんでした。それでも中には興味深い個体が観測される事もあります。  
+恐らく、十分な規模で実験すればいずれ緻密な生態系が再現されるかと思います。  
+
 ##注意
 * [Microsoft XNA Game Studio 4.0](http://www.microsoft.com/en-us/download/details.aspx?id=23714)を利用しています。実行には[Microsoft XNA Framework Redistributable 4.0](http://www.microsoft.com/en-us/download/details.aspx?id=20914)が必要です。  
 * XNA Game Studioは既に開発を終了しています。その為Visual Studio 2013以降では動作しません。Visual Studio 2010以前のバージョンで開発してください。なお、物理エンジンの関係上XBox等では動作しません。  
