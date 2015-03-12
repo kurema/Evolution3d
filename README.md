@@ -27,5 +27,5 @@
 [![【物理演算】金星](http://img.youtube.com/vi/RfbYT1-Bg_o/0.jpg)](http://www.youtube.com/watch?v=RfbYT1-Bg_o)
 
 ##ライセンス
-物理エンジンラッパー以外には修正BSDライセンスが適用されます。
+修正BSDライセンスが適用されます。
 詳細は[LICENSE](LICENSE)を参照してください。
