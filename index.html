@@ -1,36 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>Evolution3d by kurema</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <body>
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
+
+  <title>Evolution3d</title>
+  <meta name="description" content="物理演算による進化の再現の実験です。">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">Evolution3d</h1>
+    </header>
     <div id="container">
-      <div class="inner">
-
-        <header>
-          <h1>Evolution3d</h1>
-          <h2>物理演算による進化の再現の実験です。</h2>
-        </header>
-
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/kurema/Evolution3d/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/kurema/Evolution3d/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          <a href="https://github.com/kurema/Evolution3d" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
-
-        <hr>
-
-        <section id="main_content">
+      <p class="tagline">物理演算による進化の再現の実験です。</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/kurema/Evolution3d/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/kurema/Evolution3d/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/kurema/Evolution3d" class="code">View Evolution3d on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
           <h1>
 <a id="evolution3d" class="anchor" href="#evolution3d" aria-hidden="true"><span class="octicon octicon-link"></span></a>Evolution3d</h1>
 
@@ -53,7 +58,39 @@
 恐らく、十分な規模で実験すればいずれ緻密な生態系が再現されるかと思います。  </p>
 
 <h2>
+<a id="使い方" class="anchor" href="#%E4%BD%BF%E3%81%84%E6%96%B9" aria-hidden="true"><span class="octicon octicon-link"></span></a>使い方</h2>
+
+<p>コンパイル済みのプログラムは二つあります。</p>
+
+<table>
+<thead>
+<tr>
+<th>名前</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Evolution3d.bin.zip</td>
+<td>XNA Game Framework上のプログラムです。XNA Frameworkのインストールが必要です。</td>
+</tr>
+<tr>
+<td>Evolution3d.bin.mono.zip</td>
+<td>MonoGame上のプログラムです。たいていはそのまま動くはずです。表示に若干の問題が有ります。</td>
+</tr>
+</tbody>
+</table>
+
+<p>どちらの場合も.Net Framework 4.0のインストールが必要です。</p>
+
+<p>取りあえず様子を見たいと思った方はどちらかをインストールして一晩ほど放置してください。単なる自然選択程度の結果が観測できるはずです。現在の計算性能とプログラムでは捕食者による追尾や知的な行動は期待できません。<br>
+細かな設定等をしたい場合はXNA版、MonoGame版のどちらかのソースコードを読み解いて適当に変更してください。後者の方が手軽だと思います。画面サイズから個体数の制限まで設定はソースコードに直接書いてあります。コメントも控えめなので、フォークするより雰囲気をつかんで参考にする事をお勧めします。</p>
+
+<h2>
 <a id="注意" class="anchor" href="#%E6%B3%A8%E6%84%8F" aria-hidden="true"><span class="octicon octicon-link"></span></a>注意</h2>
+
+<h3>
+<a id="xna版" class="anchor" href="#xna%E7%89%88" aria-hidden="true"><span class="octicon octicon-link"></span></a>XNA版</h3>
 
 <ul>
 <li>
@@ -68,6 +105,16 @@
 <li>自動保存機能がデフォルトで有効になっています。一定時間ごとに現在の設定が自動で保存されるのでストレージが少ない環境では注意してください。</li>
 </ul>
 
+<h3>
+<a id="monogame版" class="anchor" href="#monogame%E7%89%88" aria-hidden="true"><span class="octicon octicon-link"></span></a>MonoGame版</h3>
+
+<p>最新の環境にも対応できるようMonoGame版も用意しました。中身は同じです。</p>
+
+<ul>
+<li>MonoGame版の不具合として地面に隙間が見える事を確認しています。</li>
+<li>他に特に不具合は確認できません。ただし、dllを参照する関係上等でMonoGame対応の環境でも移植可能なプラットフォームはかなり限定されるはずです。特に移植する必要もないと思いますのでWindowsで動かしてください。</li>
+</ul>
+
 <h2>
 <a id="スクリーンショット" class="anchor" href="#%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88" aria-hidden="true"><span class="octicon octicon-link"></span></a>スクリーンショット</h2>
 
@@ -79,15 +126,26 @@
 
 <p>修正BSDライセンスが適用されます。
 詳細はLICENSEを参照してください。</p>
-        </section>
-
-        <footer>
-          Evolution3d is maintained by <a href="https://github.com/kurema">kurema</a><br>
-          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
-
-        
+        </article>
       </div>
     </div>
-  </body>
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/kurema" class="avatar"><img src="https://avatars0.githubusercontent.com/u/10556974?v=3&amp;s=60" width="48" height="48"></a> <a href="https://github.com/kurema">kurema</a> maintains <a href="https://github.com/kurema/Evolution3d">Evolution3d</a></p>
+
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="http://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/kurema/Evolution3d/tarball/master" class="tar">tar</a><a href="https://github.com/kurema/Evolution3d/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+  
+</body>
 </html>
