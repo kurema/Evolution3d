@@ -1,5 +1,5 @@
 本プロジェクトには以下のライセンスが適用されます。
-Copyright (c) 2013, kurema, 米山 哲平
+Copyright (c) 2013, kurema
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -28,6 +28,7 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 -----------------------------------------------------------------------------
+Copyright (c) 米山 哲平
 Game1.cs・UserOutput.cs・Camera.csのソースコードの一部及びCube.x・Sphere.xの各モデルは米山 哲平様の著作物です。
 ソースコード・CubeとSphereモデルに関しては「自由に使って構わない」との許可を頂いています。
 従ってこれらのファイルは上記のライセンスに含みます。
