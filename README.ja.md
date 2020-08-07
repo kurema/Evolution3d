@@ -39,7 +39,7 @@ Evolution3d.bin.mono.zip | MonoGame上のプログラムです。たいていは
 * MonoGame版の不具合として地面に隙間が見える事を確認しています。
 * 他に特に不具合は確認できません。ただし、dllを参照する関係上等でMonoGame対応の環境でも移植可能なプラットフォームはかなり限定されるはずです。特に移植する必要もないと思いますのでWindowsで動かしてください。
   
-## スクリーンショット
+## 動画
 [![【物理演算】火星](http://img.youtube.com/vi/1ZDDZ7CYr50/0.jpg)](http://www.youtube.com/watch?v=1ZDDZ7CYr50)
 [![【物理演算】金星](http://img.youtube.com/vi/RfbYT1-Bg_o/0.jpg)](http://www.youtube.com/watch?v=RfbYT1-Bg_o)
 
