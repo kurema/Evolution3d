@@ -1,10 +1,10 @@
 # Evolution3d
-Simulate evolution in a virtual world.
+Simulate the evolution in the virtual world.
 
 [日本語](README.ja.md) : 日本語の説明ははるかに詳しいです。
 
 ## What is this?
-Watch on YouTube at first.
+Watch it on YouTube at first.
 
 [![【物理演算】火星](http://img.youtube.com/vi/1ZDDZ7CYr50/0.jpg)](http://www.youtube.com/watch?v=1ZDDZ7CYr50)
 [![【物理演算】金星](http://img.youtube.com/vi/RfbYT1-Bg_o/0.jpg)](http://www.youtube.com/watch?v=RfbYT1-Bg_o)
