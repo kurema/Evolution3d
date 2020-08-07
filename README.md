@@ -24,7 +24,7 @@ As a result, after some night of experience, they didn't show any smartness.
 But it may not apply to you.
 
 ## How to run
-Get it from "[Released](https://github.com/kurema/Evolution3d/releases)".
+Get it from "[Releases](https://github.com/kurema/Evolution3d/releases)".
 
 File name | Content
 --- | ---
@@ -32,4 +32,4 @@ Evolution3d.bin.zip | XNA Game Framework version. You need to install XNA Framew
 Evolution3d.bin.mono.zip | MonoGame version. It looks a little glithy, but it would just run.
 
 This is a program for experiment.
-Parameters is in the source code, so maybe you should change some code and compile it by yourself.
+Parameters is in the source code, so maybe you should change some and compile it by yourself.
