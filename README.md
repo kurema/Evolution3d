@@ -32,4 +32,4 @@ Evolution3d.bin.zip | XNA Game Framework version. You need to install XNA Framew
 Evolution3d.bin.mono.zip | MonoGame version. It looks a little glithy, but it would just run.
 
 This is a program for experiment.
-Parameter is in the source code, so maybe you should change some code and compile it by yourself.
+Parameters is in the source code, so maybe you should change some code and compile it by yourself.
